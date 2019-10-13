@@ -1,12 +1,3 @@
-/**  
- * Project Name:cmcc.cvt  
- * File Name:KafkaProducer.java  
- * Package Name:com.cmcc.dpi.cvt.kafka  
- * Date:2018年1月31日上午10:19:15  
- * Copyright (c) 2018, chiwei@chinamobile.com All Rights Reserved.  
- *  
-*/
-
 package single_run.single_run;
 
 import java.util.Properties;
@@ -15,17 +6,6 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-/**
- * ClassName:KafkaProducer <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
- * Date: 2018年1月31日 上午10:19:15 <br/>
- * 
- * @author chiwei
- * @version
- * @since JDK 1.6
- * @see
- */
 public class MyKafkaProducer {
 
 	private final KafkaProducer<String, byte[]> producer;

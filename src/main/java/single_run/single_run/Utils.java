@@ -1,11 +1,3 @@
-/**
- * Project Name:admin.common
- * File Name:Utils.java
- * Package Name:com.cmcc.admin.common.util
- * Date:2016年11月15日下午2:42:45
- * Copyright (c) 2016, chiwei@chinamobile.com All Rights Reserved.
- */
-
 package single_run.single_run;
 
 import com.google.common.base.Splitter;
@@ -19,7 +11,6 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
 import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
@@ -30,16 +21,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
-/**
- * ClassName:Utils <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
- * Date: 2016年11月15日 下午2:42:45 <br/>
- *
- * @author chiwei
- * @see
- * @since JDK 1.6
- */
 public class Utils {
 
     private static Logger logger = LoggerFactory.getLogger(Utils.class);

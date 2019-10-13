@@ -1,12 +1,3 @@
-/**  
- * Project Name:cmcc.cvt  
- * File Name:UdpHandler.java  
- * Package Name:com.cmcc.dpi.cvt.netty  
- * Date:2018年1月30日下午3:26:09  
- * Copyright (c) 2018, chiwei@chinamobile.com All Rights Reserved.  
- *  
-*/
-
 package single_run.single_run;
 
 import io.netty.channel.ChannelHandlerContext;
